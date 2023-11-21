@@ -11,7 +11,7 @@ def start():
             self.age = age
             self.children = children
 
-        def get_info(self):
+        def __str__(self):
             """Геттер, возвращает основную информацию о родителе"""
             return f'Меня зовут {self.name}, мне {self.age} лет и у меня {len(children)} детей'
 
